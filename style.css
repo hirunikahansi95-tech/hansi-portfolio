@@ -1,0 +1,142 @@
+body {
+
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+h1 {
+
+    color: #2563eb;
+    font-size: 45px;
+
+}
+
+
+p {
+
+    color: #333;
+    font-size: 20px;
+
+}
+img {
+
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+
+h2 {
+
+    color: #555;
+
+}
+
+
+button {
+
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #1d4ed8;
+
+}
+
+nav {
+
+background:#111827;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+nav h2 {
+
+color:white;
+
+}
+
+
+nav ul {
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+
+nav a {
+
+color:white;
+text-decoration:none;
+
+}
+
+
+section {
+
+margin-top:50px;
+
+}
+
+
+.skills {
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+
+}
+
+
+.skills div {
+
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px #ddd;
+
+}
+.project {
+
+background:white;
+padding:25px;
+margin:20px 0;
+border-radius:10px;
+box-shadow:0 5px 15px #ddd;
+
+}
+
+
+.project h3 {
+
+color:#2563eb;
+
+}
+footer {
+
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+
+}
